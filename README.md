@@ -1,4 +1,4 @@
-# LinearGradientGen
+# Linear Gradient Background Generator
 
 ![Linear Gradient Background Gen](https://github.com/wptechprodigy/lineargradientgen/blob/develop/images/lineargradgen.png)
 
