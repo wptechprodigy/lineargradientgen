@@ -1,0 +1,74 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font: 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	top: 15%;
+	background: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 255, 255));
+	background: -moz-linear-gradient(to right, blue, white);
+	background: -o-linear-gradient(to right, blue, white);
+	overflow: hidden;
+}
+
+h1 {
+	font: 600 3.5em 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 0.01em;
+}
+
+input[type='button'] {
+	margin-top: 20px;
+	font-size: 1.2em;
+	color: dimgray;
+	padding: 5px 20px;
+	border-radius: 5px;
+	border: 1px solid #f5f5f6;
+	box-shadow: 1px 1px 5px #333;
+	transition: all 0.5s ease-in-out;
+}
+
+input[type='button']:hover {
+	color: aliceblue;
+	background: dimgray;
+	cursor: pointer;
+	transform: scale(1.03);
+}
+
+a {
+	text-decoration: none;
+}
+
+.color-selectors {
+	display: flex;
+}
+
+.author {
+	margin: 15% auto;
+	text-transform: none;
+	letter-spacing: normal;
+}
+
+.author span {
+	font-weight: 600;
+}
+
+.author span:hover {
+	font-weight: 600;
+	cursor: pointer;
+}
