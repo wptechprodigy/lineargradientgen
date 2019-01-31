@@ -10,6 +10,6 @@ a gradient to use.</p>
 
 <p>I hope you find this useful</p>
 
-<p>This is inspired by [Zero to Mastery Course on Udemy](https://www.udemy.com/the-complete-web-developer-zero-to-mastery)</p>
+This site was built using [Zero to Mastery Course on Udemy](https://udemy.com/the-complete-web-developer-zero-to-mastery/)
 
 **Let me know your thoughts, it's the _best way to help me_ improve.**
