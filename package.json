@@ -1,0 +1,28 @@
+{
+  "name": "lineargradientgen",
+  "version": "1.0.0",
+  "description": "Linear gradient background generator",
+  "main": "script.js",
+  "homepage": "https://wptechprodigy.github.io/lineargradientgen",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wptechprodigy/lineargradientgen.git"
+  },
+  "keywords": [
+    "zero-to-mastery",
+    "linear-gradient-gen",
+    "gradient-background"
+  ],
+  "author": "Waheed Afolabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wptechprodigy/lineargradientgen/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
