@@ -4,42 +4,48 @@ const body = document.querySelector('#body-style');
 const cssGradientCode = document.querySelector('h3');
 const randomGradientGenerator = document.querySelector('input[type=button]');
 
-function generateRandomColors() {
+const generateRandomColors = () => {
 	let arr = [];
 
 	for (let i = 0; i < 2; i++) {
 		arr.push(randomColors());
 	}
 	return arr;
-}
+};
 
-function randomColors() {
+const randomColors = () => {
 	let R = Math.floor(Math.random() * 256);
 	let G = Math.floor(Math.random() * 256);
 	let B = Math.floor(Math.random() * 256);
 
 	// Generate an RGB format for linear gradient
 	return `rgb(${R}, ${G}, ${B})`;
-}
+};
+
+const setBackgroundStyle = (firstColor, secondColor) => {
+	body.style.background = `linear-gradient(to right, ${firstColor}, ${secondColor})`;
+};
 
 randomGradientGenerator.addEventListener('click', () => {
 	// Generate an RGB format for linear gradient
 	colors = generateRandomColors();
 
-	body.style.background = `linear-gradient(to right, ${colors[0]}, ${
-		colors[1]
-	})`;
+	let firstColor = colors[0];
+	let secondColor = colors[1];
+
+	setBackgroundStyle(firstColor, secondColor);
 
 	cssGradientCode.textContent = `${body.style.background};`;
 });
 
-function setBackgroundGradientColors() {
-	body.style.background = `linear-gradient(to right, ${color1.value}, ${
-		color2.value
-	})`;
+const setBackgroundGradientColors = () => {
+	let firstColor = color1.value;
+	let secondColor = color2.value;
+
+	setBackgroundStyle(firstColor, secondColor);
 
 	cssGradientCode.textContent = `${body.style.background};`;
-}
+};
 
 color1.addEventListener('input', setBackgroundGradientColors);
 

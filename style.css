@@ -1,4 +1,8 @@
 body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	font: 'Raleway', sans-serif;
 	color: rgba(0, 0, 0, 0.5);
 	text-align: center;
@@ -50,8 +54,12 @@ a {
 	text-decoration: none;
 }
 
+.color-selectors {
+	display: flex;
+}
+
 .author {
-	margin: 20% auto;
+	margin: 15% auto;
 	text-transform: none;
 	letter-spacing: normal;
 }
