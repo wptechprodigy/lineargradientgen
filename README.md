@@ -1,6 +1,6 @@
 # Linear Gradient Background Generator
 
-![Linear Gradient Background Gen](https://github.com/wptechprodigy/lineargradientgen/blob/develop/images/lineargradgen.png)
+![Linear Gradient Background Gen](https://github.com/wptechprodigy/lineargradientgen/blob/master/dist/images/lineargradgen.png)
 
 <p>LinearGradientGen is a linear background gradient generator tool<br>
 that provides a CSS code for a chosen gradient for use in your projects.</p>
