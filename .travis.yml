@@ -8,11 +8,12 @@ install:
 
 script:
   - npm test
-  - npm run build
+  - npm run deploy
 
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
+  local_dir: dist
   on:
     branches: master
