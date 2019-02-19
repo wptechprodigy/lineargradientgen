@@ -8,6 +8,7 @@ install:
 
 script:
   - npm test
+  - npm run deploy
 
 deploy:
   provider: pages
@@ -15,4 +16,4 @@ deploy:
   github-token: $GITHUB_TOKEN
   local_dir: dist
   on:
-    branches: master
+    branch: master
