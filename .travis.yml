@@ -1,16 +1,17 @@
 language: node_js
 node_js:
-  - 10.15.0
-cache: npm
-install:
-  - npm ci
-script:
-  - npm test
-  - npm run deploy
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  local_dir: dist
-  on:
-    branch: master
+  - "stable"
+cache:
+  directories: "node_modules"
+# install:
+#   - npm ci
+# script:
+#   - npm test
+#   - npm run deploy
+# deploy:
+#   provider: pages
+#   skip-cleanup: true
+#   github-token: $GITHUB_TOKEN
+#   local_dir: dist
+#   on:
+#     branch: master
