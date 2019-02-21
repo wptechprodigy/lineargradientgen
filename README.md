@@ -1,4 +1,4 @@
-# Linear Gradient Background Generator
+# Linear Gradient Background Generator [![Build Status](https://travis-ci.org/wptechprodigy/lineargradientgen.svg?branch=master)](https://travis-ci.org/wptechprodigy/lineargradientgen)
 
 ![Linear Gradient Background Gen](https://github.com/wptechprodigy/lineargradientgen/blob/master/dist/images/lineargradgen.png)
 
